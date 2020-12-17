@@ -25,7 +25,7 @@ const Home = (props) => (
                     return (
                         <Link
                             as={"/post/" + post.id}
-                            href="/post/[id]"
+                            href="/post/[pid]"
                             key={index}
                         >
                             <a className={styles.card}>
