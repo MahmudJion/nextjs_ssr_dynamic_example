@@ -12,13 +12,8 @@ const Home = (props) => (
 
         <main className={styles.main}>
             <h1 className={styles.title}>
-                Welcome to <a href="https://nextjs.org">Next.js!</a>
+                Welcome to <a href="https://nextjs.org">Next.js Blog</a>
             </h1>
-
-            <p className={styles.description}>
-                Get started by editing{' '}
-                <code className={styles.code}>pages/index.js</code>
-            </p>
 
             <div className={styles.grid}>
                 {props.posts.map((post, index) => {
